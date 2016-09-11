@@ -1,0 +1,227 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>马鹏辉</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/remodal.css">
+    <link rel="stylesheet" href="static/css/remodal-default-theme.min.css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/remodal.min.js"></script>
+    <script src="static/js/script.js"></script>
+</head>
+
+<body>
+    <div class="container" id="cv">
+        <div class="side">
+            <div class="me">
+                <div class="portrait"></div>
+                <div class="remodal remodal-img" data-remodal-id="portrait-modal">
+                    
+                </div>
+                <h1 id="username" >Vincent</h1>
+                <h4 id="persona-tag" >Java / C / Docker</h4>
+            </div>
+            <div class="profile info-unit">
+                <h2 class="info-header"><i class="iconfont icon-person"></i> <span class="info-title">基本信息</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">姓名</label><span class="label-value">马鹏辉</span></li>
+                    <li>
+                        <label class="left-label">学历</label><span class="label-value">硕士</span></li>
+                    <li>
+                        <label class="left-label">毕业院校</label><span class="label-value">河海大学</span></li>
+                    <li>
+                        <label class="left-label">毕业年份</label><span class="label-value">2017</span></li>
+                </ul>
+            </div>
+            <div class="contact info-unit">
+                <h2 class="info-header"><i class="iconfont icon-call"></i> <span class="info-title">联系方式</span></h2>
+                <hr>
+                <ul class="info-list">
+                    <li>
+                        <label class="left-label">手机</label><span class="label-value">15951089658</span></li>
+                    <li>
+                        <label class="left-label">邮箱</label><span class="label-value">524764246@qq.com</span></li>
+
+                    <li>
+                        <label class="left-label">Github</label><span class="label-value">github.com/mapenghui</span></li>
+                </ul>
+            </div>
+            <div class="skill info-unit">
+                <h2 class="info-header"><i class="iconfont icon-star"></i> <span class="info-title">技能点</span></h2>
+                <hr>
+                <ul class="progress-list">
+                    <li>
+                        <label class="left-label">Java</label>
+                        <progress value="80" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">C</label>
+                        <progress value="70" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Linux</label>
+                        <progress value="60" max="100"></progress>
+                    </li>
+                    <li>
+                        <label class="left-label">Docker</label>
+                        <progress value="50" max="100"></progress>
+                    </li>
+                </ul>
+            </div>
+            <div class="stack info-unit">
+                <h2 class="info-header"><i class="iconfont icon-build"></i> <span class="info-title">技术栈</span></h2>
+                <hr>
+                <ul class="stack-list">
+                    <li>
+                        <label class="left-label">框架</label><span class="label-value">servlet、struts2、spring、hibernate </span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">硬件</label><span class="label-value">Msp430</span></li>
+                    </li>
+                    <li>
+                        <label class="left-label">我的app</label><span class="label-value">Android:myMap</span></li>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="code info-unit">
+                <h2 class="info-header"><i class="iconfont icon-weixin"></i> <span class="info-title">个人微信</span></h2>
+                <hr>
+                <div class="weixin">
+                    <img src="static/image/weixin.png" alt="">
+
+                </div>
+            </div>
+            <div class="remodal remodal-img" data-remodal-id="weixin-modal">
+                <h3>请输入图片URL地址：</h3>
+                <br/>
+                <input type="text" id="weixin-url">
+                <button data-remodal-action="confirm" class="remodal-confirm">确定</button>
+            </div>
+        </div>
+        <div class="main">
+            <div class="education info-unit right-list">
+                <h3 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">教育经历</span></h3>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>河海大学 - 通信工程（本科）2010-2014</h3>
+                    </li>
+                    <li>
+                        <h3>河海大学 - 信号与信息处理（硕士）2014-2017</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="education info-unit right-list">
+                <h3 class="info-header"><i class="iconfont icon-education"></i> <span class="info-title">校园实践</span></h3>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>河海校园俱乐部负责人</h3>
+                    </li>
+                    <li>
+                        <h3>河海大学研究生科协赛事部副部长</h3>
+                    </li>
+                </ul>
+            </div>
+            <div class="work info-unit right-list">
+                <h3 class="info-header"><i class="iconfont icon-work"></i> <span class="info-title">工作经历</span></h3>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>南京Matchbox－实习生（实习）</h3>
+                        <p>1. 主要完成公司网站初始版本的搭建，配置好开发工作环境，为后续版本的升级提供自动化的服务。<br>
+2. 利用Docker技术，将企业需要的应用打包、制作成镜像文件传送到公司云端，使企业IT能够从云端下载公司的所需的应用，并方便快捷的部署到工作环境中。
+                        </p>
+                    </li>
+                
+                </ul class="experience-list">
+            </div>
+            <div class="project info-unit right-list">
+                <h3 class="info-header"><i class="iconfont icon-project"></i> <span class="info-title">个人项目</span></h3>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>卫星跟踪远程登陆系统</h3>
+                        <p>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp通过网络技术，编写基于TCP/IP协议和客户端/服务器模式下的远程控制平台，网络通信部分采用Socket套接字来编程实现，完成控制命令和状态数据的实时传输。权限管理部分，利用数据库技术划分用户使用的权限和相应的等级，以管理当前使用用户。总体以个人计算机作为远程控制客户端，射电望远镜驱动设备为控制对象，设计实现了Internet的射电望远镜远程控制系统。
+                            
+                            <br/>
+                        </p>
+                    </li>
+                    <li>
+                        <h3>基于卫星跟踪控制及数据采集系统研究与设计</h3>
+                        <p>
+                           本课题来源于国家自然科学基金项目，目的是建立一套卫星跟踪观测系统时实地的跟踪卫星。具体主要是通过GPS获得地理位置（实验地经度和纬度）和时间，之后通过算法获得卫星的具体位置，进而可以通过一块单片机来控制电机带动小型抛物面天线来对准卫星，从而实现精确的卫星定位及自动跟踪卫星。
+                        </p>
+                    </li>
+                    <li>
+                        <h3>时尚购物网的搭建</h3>
+                        <p>
+                           运用MVC架构，搭建了一个简单的购物网站，可以实现商品的分页显示、商品详细信息显示、添加商品到购物车、用户登陆、显示用户信息和最终购买情况，并将用户的操作同步到数据库中。
+                        </p>
+                        <p>
+                        个人职责：
+                         完成对控制单片机的代码编写、调试以及对系统的稳定性和跟踪精度的测试；
+                         完成对采数单片机的代码的编写，实现与PC机的通信；
+                         使用Java制作的界面，通过串口，将从下位机（MSP430）接收到的数据信息实时传输到上位机；
+                         对接收到的数据进行处理，并完成天线反馈数据图的绘制。
+<p>
+                    </li>
+                    <li>
+                        <h3>南京MatchBox公司网站的搭建</h3>
+                        <p>
+                            搭建实习公司的网站1.0版，网址： dorry.io
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="trophy info-unit">
+                <h3 class="info-header"><i class="iconfont icon-trophy"></i> <span class="info-title">奖项与证书</span></h3>
+                <hr>
+                <ul class="experience-list">
+                    <li>
+                        <h3>河海大学国家励志奖学金</h3>
+                    </li> 
+                    <li>
+                        <h3>河海大学学业进步奖学金</h3>          
+                    </li> 
+                      <li>
+                        <h3>“研究生电子科技竞赛”三等奖</h3>          
+                    </li> 
+  		    <li>
+                        <h3>河海大学研究生二等奖学金</h3>          
+                    </li>   
+                    <li>
+                        <h3>江苏省计算机三级（偏软、偏硬）证书</h3>          
+                    </li>                  
+            </div>
+            <div class="aboutme info-unit right-paragraph">
+                <h3 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">自我评价</span></h3>
+                <hr>
+                <p>
+                    严谨，有责任心，对数字和细节敏感,有快速学习能力，行动力、执行力强<br>善于沟通与合作，具备良好的团队精神，乐观、开朗、自信、热爱运动、拥抱挑战<br>性格开朗，善于组织与沟通，较强的抗压能力。     
+                </p>
+            </div>
+            
+	    <div class="aboutme info-unit right-paragraph">
+                <h3 class="info-header"><i class="iconfont icon-flower"></i> <span class="info-title">补充资料</span></h3>
+                <hr>
+                <p>
+出生日期： 1993.08.16<br>
+籍&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp贯： 新疆阿拉尔<br>                        
+通讯地址： 南京市江宁区佛城西路8号河海大学510信箱（邮编211100）     
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
